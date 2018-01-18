@@ -1,0 +1,32 @@
+<sidebar></sidebar>
+
+<div id="content">
+  <market-header></market-header>
+  <order-book></order-book>
+  <trade-history></trade-history>
+  <div class="content-center">
+    <div class="content-center-chart box-responcive">
+
+      <ul class="reset content-center-tabs">
+        <li class="current">Price chart</li>
+        <li>Depth chart</li>
+      </ul>
+
+      <div class="box visible">
+        <h2>Price chart</h2>
+
+        <div class="chart-box">
+          <price-chart></price-chart>
+        </div>
+      </div>
+
+      <div class="box">
+        <h2>Depth chart</h2>
+
+        <div class="chart-box"></div>
+      </div>
+
+    </div>
+    <open-orders></open-orders>
+  </div>
+</div>

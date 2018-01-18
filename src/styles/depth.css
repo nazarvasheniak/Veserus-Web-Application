@@ -1,0 +1,112 @@
+.highcharts-series-0 .highcharts-area {
+    fill: rgba(255, 105, 57, 0.35);
+}
+
+.highcharts-series-0 .highcharts-graph {
+    stroke: rgb(255, 105, 57);
+}
+
+.highcharts-series-1 .highcharts-area {
+    fill: rgba(129, 193, 104, 0.35);
+}
+
+.highcharts-series-1 .highcharts-graph {
+    stroke: rgb(129, 193, 104);
+}
+
+.depth_chart_control {
+    display: flex;
+    position: absolute;
+    width: 210px;
+    left: calc(50% - 105px);
+    top: 40px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.depth_chart_control .depth_chart_header {
+    height: 100%;
+    text-align: center;
+}
+
+.depth_chart_control .depth_chart_header .mid_price_label {
+    font-family: 'Helvetica Neue';
+    font-size: 16px;
+    font-weight: 700;
+    color: #9aa7b6;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.depth_chart_control .depth_chart_header .mid_price {
+    font-family: 'Helvetica Neue';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.depth_chart_control .balances-plus,
+.depth_chart_control .balances-minus {
+    position: relative;
+    margin: 0;
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 3px;
+    top: 14px;
+}
+
+.depth_chart_control .balances-plus {
+    background: transparent;
+    color: #fff;
+    background-size: auto 7px;
+    border: 1px solid #161f34;
+}
+
+.depth_chart_control .balances-minus {
+    background: transparent;
+    color: #fff;
+    background-size: auto 1px;
+    border: 1px solid #161f34;
+}
+
+.highcharts-series-1 .highcharts-area {
+    fill: url(#lgrad2);
+}
+
+.highcharts-series-0 .highcharts-area {
+    fill: url(#lgrad1);
+}
+
+.t_i {
+    display: flex;
+}
+
+.t_h {
+    font-size: 11px;
+    color: #7783b5;
+}
+
+.t_v {
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.f_t_i {
+    margin-right: 22px;
+}
+
+.f_h {
+    font-weight: bold;
+}
+
+.highcharts-axis.highcharts-xaxis .highcharts-axis-line {
+    display: none;
+}
+
+#depth-chart-container .highcharts-axis-line {
+    display: none;
+}

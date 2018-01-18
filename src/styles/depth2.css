@@ -1,0 +1,110 @@
+.highcharts-series-0 .highcharts-area {
+    fill: rgba(255, 105, 57, 0.35);
+}
+
+.highcharts-series-0 .highcharts-graph {
+    stroke: rgb(255, 105, 57);
+}
+
+.highcharts-series-1 .highcharts-area {
+    fill: rgba(129, 193, 104, 0.35);
+}
+
+.highcharts-series-1 .highcharts-graph {
+    stroke: rgb(129, 193, 104);
+}
+
+.depth_chart_control {
+    display: flex;
+    position: absolute;
+    width: 210px;
+    left: calc(50% - 105px);
+    top: 15px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.depth_chart_control .depth_chart_header {
+    height: 100%;
+    text-align: center;
+}
+
+.depth_chart_control .depth_chart_header .mid_price_label {
+    font-family: 'Helvetica Neue';
+    font-size: 16px;
+    font-weight: 700;
+    color: #a2afbe;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.depth_chart_control .depth_chart_header .mid_price {
+    font-family: 'Helvetica Neue';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #545c6d;
+    margin-top: 5px;
+}
+
+.depth_chart_control .balances-plus,
+.depth_chart_control .balances-minus {
+    font-size: 14px;
+    margin: 0;
+    padding: 4px 8px;
+    border-radius: 3px;
+    position: relative;
+    top: 14px;
+}
+
+.depth_chart_control .balances-plus {
+    background: #fff url(data:image/svg+xml;base64,PHN2ZyAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgd2lkdGg9IjE0cHgiIGhlaWdodD0iMTRweCI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiAgZmlsbD0icmdiKDI1NSwgMjU1LCAyNTUpIiBkPSJNMTQuMDE1LDguMDAyIEw4LjAwMiw4LjAwMiBMOC4wMDIsMTQuMDE1IEw1Ljk5OCwxNC4wMTUgTDUuOTk4LDguMDAyIEwtMC4wMTUsOC4wMDIgTC0wLjAxNSw1Ljk5OCBMNS45OTgsNS45OTggTDUuOTk4LC0wLjAxNSBMOC4wMDIsLTAuMDE1IEw4LjAwMiw1Ljk5OCBMMTQuMDE1LDUuOTk4IEwxNC4wMTUsOC4wMDIgWiIvPjwvc3ZnPg==) no-repeat center;
+    background-size: auto 7px;
+    border: 1px solid #a2afbe;
+}
+
+.depth_chart_control .balances-minus {
+    background: #fff url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSLQodC70L7QuV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDE0IDIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE0IDI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQoJLnN0MHtmaWxsOiNGRkZGRkY7fQ0KPC9zdHlsZT4NCjxyZWN0IGNsYXNzPSJzdDAiIHdpZHRoPSIxNCIgaGVpZ2h0PSIyIi8+DQo8L3N2Zz4=) no-repeat center;
+    background-size: auto 1px;
+    border: 1px solid #a2afbe;
+}
+
+.highcharts-series-1 .highcharts-area {
+    fill: url(#lgrad2);
+}
+
+.highcharts-series-0 .highcharts-area {
+    fill: url(#lgrad1);
+}
+
+.t_i {
+    display: flex;
+}
+
+.t_h {
+    font-size: 11px;
+    color: #7783b5;
+}
+
+.t_v {
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.f_t_i {
+    margin-right: 22px;
+}
+
+.f_h {
+    font-weight: bold;
+}
+
+.highcharts-axis.highcharts-xaxis .highcharts-axis-line {
+    display: none;
+}
+
+#depth-chart-box .highcharts-axis-line {
+    display: none;
+}

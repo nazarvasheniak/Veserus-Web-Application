@@ -1,0 +1,18 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\node_modules\\node-sass",
+    "\\node_modules\\node-sass\\src",
+    "\\node_modules\\node-sass\\src\\libsass",
+    "\\node_modules\\node-sass\\src\\libsass\\win",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\common",
+    "\\src\\app\\market",
+    "\\src\\app\\profile",
+    "\\src\\app\\profile\\components",
+    "\\src\\app\\profile\\components\\user-profile"
+  ],
+  "SelectedNode": "\\src\\typings.d.ts",
+  "PreviewInSolutionExplorer": false
+}

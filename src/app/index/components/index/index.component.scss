@@ -1,0 +1,13 @@
+#content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 251px;
+  right: 0;
+}
+
+@media screen and (max-width: 600px) {
+  #content {
+    left: 0;
+  }
+}

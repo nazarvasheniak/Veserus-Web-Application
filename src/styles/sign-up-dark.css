@@ -1,0 +1,116 @@
+body {
+    background: #091329;
+}
+
+::-webkit-input-placeholder { color: #44506b; }
+::-moz-placeholder          { color: #44506b; }
+:-moz-placeholder           { color: #44506b; }
+:-ms-input-placeholder      { color: #44506b; }
+
+a {
+    color: #0d70f7;
+}
+
+
+
+
+
+input[type=checkbox] + label {
+    color: #7a8190;
+}
+
+input[type=checkbox] + label span {
+    background: #344361;
+}
+
+input[type=checkbox]:checked + label {
+    color: #646975;
+}
+
+input[type=checkbox]:checked + label span {
+    background: #0d70f7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sign {
+    background: #091329;
+}
+
+.sign-container {
+    background: #202d49;
+    box-shadow: 0 10px 44px rgba(7, 14, 30, 0.26);
+}
+
+.sign-container h3 {
+    border-bottom: 1px solid #303c57;
+    color: white;
+}
+
+.sign-container-input {
+    border-bottom: 1px solid #303c57;
+}
+
+.sign-container-input span {
+    color: #626f89;
+}
+
+.sign-container-input input {
+    color: #607196;
+}
+
+.sign-links a {
+    color: #9ba3b3;
+}
+
+
+
+
+@media screen and (max-width: 370px) {
+    a.sign-logo {
+        top: 38px;
+        margin-left: -28px;
+        background-size: auto 55px;
+    }
+    .sign-narrow {
+        padding: 128px 11px 30px 11px;
+    }
+    .sign-container h3 {
+        padding: 25px 0 26px 0;
+    }
+    .sign-container-input {
+        padding: 13px 12px 10.5px 17px;
+    }
+    .sign-container-input span {
+        width: 39%;
+    }
+    .sign-container-input input {
+        width: 61.0%;
+    }
+    .sign-container-checkbox {
+        padding: 22px 17px 19px 13px;
+        font-size: 15px;
+    }
+    .sign-container button {
+        width: calc(100% - 36px);
+        margin: 0 19px 0 19px;
+    }
+    .sign-links {
+        padding: 33px 0 0 0;
+    }
+}
+
+
+
+
